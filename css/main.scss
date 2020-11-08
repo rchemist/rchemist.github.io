@@ -904,7 +904,7 @@ $baseurl: '{{ site.baseurl }}/images';
 				$j: 0.035 * $i;
 
 				&:nth-child(#{$i}) {
-					background-color: rgba(#11B0E6, $j);
+					background-color: rgba(0,0,0, $j);
 				}
 			}
 
@@ -1248,7 +1248,7 @@ $baseurl: '{{ site.baseurl }}/images';
 		}
 
 		&.style3 {
-			@include wrapper(accent5);
+			@include wrapper(accent8);
 		}
 
 		&.style4 {
