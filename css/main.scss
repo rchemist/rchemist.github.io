@@ -894,7 +894,7 @@ $baseurl: '{{ site.baseurl }}/images';
 		width: 100%;
 
 		li {
-			@include padding(4em, 1em, (0,0,0.3,2.4em));
+			@include padding(4em, 1em, (0,0,0.2,2.4em));
 			display: block;
 			position: relative;
 			text-align: left;
