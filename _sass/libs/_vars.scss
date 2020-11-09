@@ -124,13 +124,68 @@
 		),
 
 		accent8: (
-		bg:				#11B0E6,
-		fg-bold:		#2E3842,
-		fg:				#4E4852,
-		fg-light:		#8E8892,
-		border:			#dfdfdf,
-		border-bg:		rgba(0,0,0,0.0375),
-		border2:		#bfbfbf,
-		border2-bg:		rgba(0,0,0,0.1)
-		)
+			bg:				#11B0E6,
+			fg-bold:		#2E3842,
+			fg:				#4E4852,
+			fg-light:		#8E8892,
+			border:			#dfdfdf,
+			border-bg:		rgba(0,0,0,0.0375),
+			border2:		#bfbfbf,
+			border2-bg:		rgba(0,0,0,0.1)
+		),
+
+		accent-ready-to-use: (
+			bg:				#6AC4A5,
+			fg-bold:		#ffffff,
+			fg:				mix(#505393, #ffffff, 25%),
+			fg-light:		mix(#505393, #ffffff, 40%),
+			border:			rgba(0,0,0,0.2),
+			border-bg:		rgba(255,255,255,0.2),
+			border2:		rgba(0,0,0,0.25),
+			border2-bg:		rgba(255,255,255,0.2)
+		),
+
+		accent-for-enterprise: (
+			bg:				#6AC4A5,
+			fg-bold:		#ffffff,
+			fg:				mix(#505393, #ffffff, 25%),
+			fg-light:		mix(#505393, #ffffff, 40%),
+			border:			rgba(0,0,0,0.2),
+			border-bg:		rgba(255,255,255,0.2),
+			border2:		rgba(0,0,0,0.25),
+			border2-bg:		rgba(255,255,255,0.2)
+		),
+
+		accent-domain-driven: (
+			bg:				#FF7E79,
+			fg-bold:		#ffffff,
+			fg:				mix(#505393, #ffffff, 25%),
+			fg-light:		mix(#505393, #ffffff, 40%),
+			border:			rgba(0,0,0,0.2),
+			border-bg:		rgba(255,255,255,0.2),
+			border2:		rgba(0,0,0,0.25),
+			border2-bg:		rgba(255,255,255,0.2)
+		),
+
+		accent-flexible: (
+			bg:				#FDB911,
+			fg-bold:		#ffffff,
+			fg:				mix(#505393, #ffffff, 25%),
+			fg-light:		mix(#505393, #ffffff, 40%),
+			border:			rgba(0,0,0,0.2),
+			border-bg:		rgba(255,255,255,0.2),
+			border2:		rgba(0,0,0,0.25),
+			border2-bg:		rgba(255,255,255,0.2)
+		),
+
+		accent-features: (
+			bg:				#11B0E6,
+			fg-bold:		#ffffff,
+			fg:				mix(#505393, #ffffff, 25%),
+			fg-light:		mix(#505393, #ffffff, 40%),
+			border:			rgba(0,0,0,0.2),
+			border-bg:		rgba(255,255,255,0.2),
+			border2:		rgba(0,0,0,0.25),
+			border2-bg:		rgba(255,255,255,0.2)
+		),
 	);

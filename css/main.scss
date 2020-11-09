@@ -1251,6 +1251,26 @@ $baseurl: '{{ site.baseurl }}/images';
 			@include wrapper(accent5);
 		}
 
+		&.style3-ready-to-use {
+			@include wrapper(accent-ready-to-use);
+		}
+
+		&.style3-for-enterprise {
+			@include wrapper(accent-for-enterprise);
+		}
+
+		&.style3-domain-driven {
+			@include wrapper(accent-domain-driven);
+		}
+
+		&.style3-flexible {
+			@include wrapper(accent-flexible);
+		}
+
+		&.style3-features {
+			@include wrapper(accent-features);
+		}
+
 		&.style4 {
 			background-color: transparent;
 		}
