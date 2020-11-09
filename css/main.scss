@@ -967,7 +967,7 @@ $baseurl: '{{ site.baseurl }}/images';
 		width: 100%;
 
 		li {
-			@include padding(4em, 1em, (0,0,0.2,2.4em));
+			@include padding(4em, 4em, (0,0,0,2em));
 			display: block;
 			position: relative;
 			text-align: left;
@@ -977,7 +977,7 @@ $baseurl: '{{ site.baseurl }}/images';
 				$j: 0.035 * $i;
 
 				&:nth-child(#{$i}) {
-					background-color: rgba(255,255,255, $j);
+					background-color: rgba(0,0,0, $j);
 				}
 			}
 
