@@ -1084,7 +1084,7 @@ $baseurl: '{{ site.baseurl }}/images';
 
 			@include breakpoint(medium) {
 				@include padding(3em, 2em);
-				text-align: center;
+				text-align: left;
 
 				&:before {
 					left: 0;
