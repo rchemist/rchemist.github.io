@@ -1037,6 +1037,7 @@ $baseurl: '{{ site.baseurl }}/images';
 	.features-1 {
 		@include vendor('display', 'flex');
 		@include vendor('flex-wrap', 'wrap');
+		@include vendor('justify-content', 'center');
 		list-style: none;
 		padding: 0;
 		width: 100%;
