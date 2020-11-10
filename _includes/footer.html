@@ -14,8 +14,8 @@
     {% endfor %}
   </ul>
   <ul class="copyright">
-    <li><b>(주) Rchemist</b></li>
-    <li>경기도 화성시 봉담읍 와우안길 17 고운첨단과학기술연구원 1003호</li>
+    <li><b>{% if site.company %}{{ site.company }}{% else %}{{ site.title }}{% endif %}</b></li>
+    <li>{% site.address %}</li>
     <li>고객지원:official@rchemist.io</li>
     <li>대표이사:길건호</li>
     <li>Copyright &copy; {% assign thisyear = site.time | date: "%Y" %}
