@@ -14,14 +14,16 @@
     {% endfor %}
   </ul>
   <ul class="copyright">
-    <li>&copy; {% assign thisyear = site.time | date: "%Y" %}
+    <li><b>(주)Rchemist</b></li>
+    <li>경기도 화성시 봉담읍 와우안길 17 고운첨단과학기술연구원 1003호</li>
+    <li>고객지원:official@rchemist.io</li>
+    <li>대표이사:길건호</li>
+    <li>Copyright &copy; {% assign thisyear = site.time | date: "%Y" %}
     {% if site.first_published %}
       {% capture diff %}{{ site.first_published | minus:thisyear }}{% endcapture %}
       {% if diff contains '-' %}{{ site.first_published }},{% endif %}
     {% endif %}
     {{ thisyear }}
-    {% if site.owner %}{{ site.owner }}{% else %}{{ site.title }}{% endif %}</li>
-    <li>Design: <a href="http://html5up.net" target="_blank">HTML5 UP</a></li>
-    <li>Built with: <a href="http://jekyllrb.com" target="_blank">Jekyll</a></li>
+    {% if site.owner %}{{ site.owner }}{% else %}{{ site.title }}{% endif %} Co.,Ltd. All rights reserved.</li>
   </ul>
 </footer>
