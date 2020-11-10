@@ -15,9 +15,9 @@
   </ul>
   <ul class="copyright">
     <li><b>{% if site.company %}{{ site.company }}{% else %}{{ site.title }}{% endif %}</b></li>
-    <li>{% site.address %}</li>
-    <li>고객지원:{% site.email %}</li>
-    <li>대표이사:{% site.represent %}</li>
+    <li>{ site.address }</li>
+    <li>고객지원:{ site.email }</li>
+    <li>대표이사:{ site.represent }</li>
     <li>Copyright &copy; {% assign thisyear = site.time | date: "%Y" %}
     {% if site.first_published %}
       {% capture diff %}{{ site.first_published | minus:thisyear }}{% endcapture %}
