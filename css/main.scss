@@ -611,7 +611,7 @@ $baseurl: '{{ site.baseurl }}/images';
 			}
 		}
 
-		&.actions-main {
+		&.actions {
 			cursor: default;
 			list-style: none;
 			padding-left: 0;
@@ -1047,14 +1047,13 @@ $baseurl: '{{ site.baseurl }}/images';
 			display: block;
 			position: relative;
 			text-align: left;
-			width: 40%;
+			width: 50%;
 
 			@for $i from 1 through _misc(max-features) {
 				$j: 0.035 * $i;
 
 				&:nth-child(#{$i}) {
 					background-color: rgba(0,0,0,25%);
-					margin: 10px;
 				}
 			}
 
@@ -1447,7 +1446,7 @@ $baseurl: '{{ site.baseurl }}/images';
 
 		> .inner {
 			width: 60em;
-			margin: auto 0;
+			margin: 0 auto;
 
 			@include breakpoint(large) {
 				width: 90%;
