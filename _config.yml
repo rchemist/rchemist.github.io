@@ -11,7 +11,8 @@ description: |
   crafted by [HTML5 UP](http://html5up.net)
 owner: Rchemist # or company name
 first_published: 2019 # if migrating another site, the year of your first publish
-email: your-email@domain.com
+email: official@rchemist.io
+represent: 길건호
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://rchemist.github.io" # the base hostname & protocol for your site
 #social:
