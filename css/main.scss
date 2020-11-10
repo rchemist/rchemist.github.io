@@ -1450,7 +1450,7 @@ $baseurl: '{{ site.baseurl }}/images';
 
 		> .inner {
 			width: 60em;
-			margin: 0 auto;
+			margin: auto;
 
 			@include breakpoint(large) {
 				width: 90%;
