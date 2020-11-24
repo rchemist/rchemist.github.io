@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap-responsive.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <script src="assets/js/jquery-1.8.3.min.js" type="text/javascript"></script>
+    <script src="assets/js/main.js" type="text/javascript"></script>
+
+    <title>REST API Resources</title>
+</head>
+<body>
+<div class="header">
+    <div class="top-bar">
+        <h1 id="logo"><a class="logo" href="/"><span>Swagger</span><span class="light">API Docs</span></a></h1>
+    </div>
+</div>
+<div class="model-container"></div>
+<div class="content">
+    <div class="box clearfix">
+        <div class="sidebar">
+            <div class="section-box">
+                <div class="section-header">
+                    Overview
+                </div>
+                <ul>
+                    <li>Getting Started</li>
+                </ul>
+            </div>
+            <div class="section-box">
+                <div class="section-header">
+                    <a href="#!/BrandApi">BrandApi</a>
+                </div>
+                <ul>
+                    <li><a href="#!/BrandApi#findBrandById">findBrandById</a></li>
+                    <li><a href="#!/BrandApi#findProductsByBrandId">findProductsByBrandId</a></li>
+                </ul>
+            </div>
+            <div class="section-box">
+                <div class="section-header">
+                    <a href="#!/CartApi">CartApi</a>
+                </div>
+                <ul>
+                    <li><a href="#!/CartApi#addItemToCart">addItemToCart</a></li>
+                    <li><a href="#!/CartApi#createNewCartByCustomerId">createNewCartByCustomerId</a></li>
+                    <li><a href="#!/CartApi#findCartByCustomerId">findCartByCustomerId</a></li>
+                    <li><a href="#!/CartApi#findCartById">findCartById</a></li>
+                    <li><a href="#!/CartApi#removeAllItemFromCart">removeAllItemFromCart</a></li>
+                    <li><a href="#!/CartApi#removeItemFromCart">removeItemFromCart</a></li>
+                    <li><a href="#!/CartApi#updateItemQuantity">updateItemQuantity</a></li>
+                </ul>
+            </div>
+            <div class="section-box">
+                <div class="section-header">
+                    <a href="#!/CatalogApi">CatalogApi</a>
+                </div>
+                <ul>
+                    <li><a href="#!/CatalogApi#findActiveSubCategories">findActiveSubCategories</a></li>
+                    <li><a href="#!/CatalogApi#findAdditionalSkusByProductId">findAdditionalSkusByProductId</a></li>
+                    <li><a href="#!/CatalogApi#findAllCategories">findAllCategories</a></li>
+                    <li><a href="#!/CatalogApi#findBrandsByProductId">findBrandsByProductId</a></li>
+                    <li><a href="#!/CatalogApi#findCategoryAttributes">findCategoryAttributes</a></li>
+                    <li><a href="#!/CatalogApi#findCategoryById">findCategoryById</a></li>
+                    <li><a href="#!/CatalogApi#findCategoryByUri">findCategoryByUri</a></li>
+                    <li><a href="#!/CatalogApi#findCrossSaleProductsByProductId">findCrossSaleProductsByProductId</a></li>
+                    <li><a href="#!/CatalogApi#findDefaultSkuByProductId">findDefaultSkuByProductId</a></li>
+                    <li><a href="#!/CatalogApi#findGuidesByProductId">findGuidesByProductId</a></li>
+                    <li><a href="#!/CatalogApi#findMediaForProduct">findMediaForProduct</a></li>
+                    <li><a href="#!/CatalogApi#findMediaForSku">findMediaForSku</a></li>
+                    <li><a href="#!/CatalogApi#findParentCategoriesForProductId">findParentCategoriesForProductId</a></li>
+                    <li><a href="#!/CatalogApi#findProductAttributesForProduct">findProductAttributesForProduct</a></li>
+                    <li><a href="#!/CatalogApi#findProductByExternalId">findProductByExternalId</a></li>
+                    <li><a href="#!/CatalogApi#findProductById">findProductById</a></li>
+                    <li><a href="#!/CatalogApi#findSearchResultsByCategoryAndQuery">findSearchResultsByCategoryAndQuery</a></li>
+                    <li><a href="#!/CatalogApi#findSearchResultsByQuery">findSearchResultsByQuery</a></li>
+                    <li><a href="#!/CatalogApi#findSkuAttributesForSkuId">findSkuAttributesForSkuId</a></li>
+                    <li><a href="#!/CatalogApi#findSkuByExternalId">findSkuByExternalId</a></li>
+                    <li><a href="#!/CatalogApi#findSkuById">findSkuById</a></li>
+                    <li><a href="#!/CatalogApi#findSkusByProductId">findSkusByProductId</a></li>
+                    <li><a href="#!/CatalogApi#findSubCategories">findSubCategories</a></li>
+                    <li><a href="#!/CatalogApi#findUpSaleProductsByProductId">findUpSaleProductsByProductId</a></li>
+                </ul>
+            </div>
+            <div class="section-box">
+                <div class="section-header">
+                    <a href="#!/CustomEntityApi">CustomEntityApi</a>
+                </div>
+                <ul>
+                    <li><a href="#!/CustomEntityApi#findCustomEntityByAlias">findCustomEntityByAlias</a></li>
+                    <li><a href="#!/CustomEntityApi#findCustomEntityByAliasAndDataRow">findCustomEntityByAliasAndDataRow</a></li>
+                    <li><a href="#!/CustomEntityApi#findCustomEntityById">findCustomEntityById</a></li>
+                    <li><a href="#!/CustomEntityApi#findDataRowByAliasAndDataRow">findDataRowByAliasAndDataRow</a></li>
+                </ul>
+            </div>
+            <div class="section-box">
+                <div class="section-header">
+                    <a href="#!/CustomerApi">CustomerApi</a>
+                </div>
+                <ul>
+                    <li><a href="#!/CustomerApi#addAddress">addAddress</a></li>
+                    <li><a href="#!/CustomerApi#addCustomer">addCustomer</a></li>
+                    <li><a href="#!/CustomerApi#changePassword">changePassword</a></li>
+                    <li><a href="#!/CustomerApi#findAllAddresses">findAllAddresses</a></li>
+                    <li><a href="#!/CustomerApi#findCustomerByEmail">findCustomerByEmail</a></li>
+                    <li><a href="#!/CustomerApi#findOfferByCustomerId">findOfferByCustomerId</a></li>
+                    <li><a href="#!/CustomerApi#removeAddress">removeAddress</a></li>
+                    <li><a href="#!/CustomerApi#removeAllAddresses">removeAllAddresses</a></li>
+                    <li><a href="#!/CustomerApi#removeAllAttributes">removeAllAttributes</a></li>
+                    <li><a href="#!/CustomerApi#removeAttributeByName">removeAttributeByName</a></li>
+                    <li><a href="#!/CustomerApi#updateAddress">updateAddress</a></li>
+                    <li><a href="#!/CustomerApi#updateCustomer">updateCustomer</a></li>
+                </ul>
+            </div>
+            <div class="section-box">
+                <div class="section-header">
+                    <a href="#!/FulfillmentApi">FulfillmentApi</a>
+                </div>
+                <ul>
+                    <li><a href="#!/FulfillmentApi#findFulfillmentGroupAddress">findFulfillmentGroupAddress</a></li>
+                    <li><a href="#!/FulfillmentApi#findFulfillmentGroupsById">findFulfillmentGroupsById</a></li>
+                    <li><a href="#!/FulfillmentApi#findFulfillmentGroupsForOrder">findFulfillmentGroupsForOrder</a></li>
+                    <li><a href="#!/FulfillmentApi#findFulfillmentOptions">findFulfillmentOptions</a></li>
+                    <li><a href="#!/FulfillmentApi#updateFulfillmentGroup">updateFulfillmentGroup</a></li>
+                    <li><a href="#!/FulfillmentApi#updateFulfillmentGroupAddress">updateFulfillmentGroupAddress</a></li>
+                    <li><a href="#!/FulfillmentApi#updateFulfillmentGroupStatus">updateFulfillmentGroupStatus</a></li>
+                </ul>
+            </div>
+            <div class="section-box">
+                <div class="section-header">
+                    <a href="#!/InventoryApi">InventoryApi</a>
+                </div>
+                <ul>
+                    <li><a href="#!/InventoryApi#findInventoriesByLocationId">findInventoriesByLocationId</a></li>
+                    <li><a href="#!/InventoryApi#findInventoryById">findInventoryById</a></li>
+                    <li><a href="#!/InventoryApi#updateInventory">updateInventory</a></li>
+                </ul>
+            </div>
+            <div class="section-box">
+                <div class="section-header">
+                    <a href="#!/InventoryAlarmApi">InventoryAlarmApi</a>
+                </div>
+                <ul>
+                    <li><a href="#!/InventoryAlarmApi#addInventoryAlarm">addInventoryAlarm</a></li>
+                    <li><a href="#!/InventoryAlarmApi#findInventoryAlarmByCustomerAndSku">findInventoryAlarmByCustomerAndSku</a></li>
+                    <li><a href="#!/InventoryAlarmApi#findInventoryAlarmById">findInventoryAlarmById</a></li>
+                    <li><a href="#!/InventoryAlarmApi#removeInventoryAlarm">removeInventoryAlarm</a></li>
+                    <li><a href="#!/InventoryAlarmApi#updateInventoryAlarm">updateInventoryAlarm</a></li>
+                </ul>
+            </div>
+            <div class="section-box">
+                <div class="section-header">
+                    <a href="#!/LegacyCreditApi">LegacyCreditApi</a>
+                </div>
+                <ul>
+                    <li><a href="#!/LegacyCreditApi#findCreditByAccountNumber">findCreditByAccountNumber</a></li>
+                    <li><a href="#!/LegacyCreditApi#findCreditByExternalId">findCreditByExternalId</a></li>
+                </ul>
+            </div>
+            <div class="section-box">
+                <div class="section-header">
+                    <a href="#!/LegacyCustomerApi">LegacyCustomerApi</a>
+                </div>
+                <ul>
+                    <li><a href="#!/LegacyCustomerApi#getCreditByCustomer">getCreditByCustomer</a></li>
+                    <li><a href="#!/LegacyCustomerApi#getCustomerById">getCustomerById</a></li>
+                    <li><a href="#!/LegacyCustomerApi#getCustomerSegmentByCustomer">getCustomerSegmentByCustomer</a></li>
+                </ul>
+            </div>
+            <div class="section-box">
+                <div class="section-header">
+                    <a href="#!/LocationnApi">LocationnApi</a>
+                </div>
+                <ul>
+                    <li><a href="#!/LocationnApi#findDefaultLocation">findDefaultLocation</a></li>
+                    <li><a href="#!/LocationnApi#findLocationById">findLocationById</a></li>
+                    <li><a href="#!/LocationnApi#findLocationsByFullfillmentType">findLocationsByFullfillmentType</a></li>
+                </ul>
+            </div>
+            <div class="section-box">
+                <div class="section-header">
+                    <a href="#!/NewsLetterApi">NewsLetterApi</a>
+                </div>
+                <ul>
+                    <li><a href="#!/NewsLetterApi#addSubscriberToNewsLetter">addSubscriberToNewsLetter</a></li>
+                    <li><a href="#!/NewsLetterApi#findNewsLetterById">findNewsLetterById</a></li>
+                    <li><a href="#!/NewsLetterApi#removeSubscriberToNewsLetter">removeSubscriberToNewsLetter</a></li>
+                </ul>
+            </div>
+            <div class="section-box">
+                <div class="section-header">
+                    <a href="#!/OrderHistoryApi">OrderHistoryApi</a>
+                </div>
+                <ul>
+                    <li><a href="#!/OrderHistoryApi#findOrderById">findOrderById</a></li>
+                    <li><a href="#!/OrderHistoryApi#findOrderByOrderNumber">findOrderByOrderNumber</a></li>
+                    <li><a href="#!/OrderHistoryApi#findOrdersForCustomer">findOrdersForCustomer</a></li>
+                </ul>
+            </div>
+            <div class="section-box">
+                <div class="section-header">
+                    <a href="#!/RatingsApi">RatingsApi</a>
+                </div>
+                <ul>
+                    <li><a href="#!/RatingsApi#createReviewDetail">createReviewDetail</a></li>
+                    <li><a href="#!/RatingsApi#getRatingsByProduct">getRatingsByProduct</a></li>
+                    <li><a href="#!/RatingsApi#removeReview">removeReview</a></li>
+                    <li><a href="#!/RatingsApi#updateReviewDetail">updateReviewDetail</a></li>
+                </ul>
+            </div>
+            <div class="section-box">
+                <div class="section-header">
+                    <a href="#!/RelatedProductApi">RelatedProductApi</a>
+                </div>
+                <ul>
+                    <li><a href="#!/RelatedProductApi#getRelatedProducts">getRelatedProducts</a></li>
+                </ul>
+            </div>
+            <div class="section-box">
+                <div class="section-header">
+                    <a href="#!/WishlistApi">WishlistApi</a>
+                </div>
+                <ul>
+                    <li><a href="#!/WishlistApi#addItemToWishlist">addItemToWishlist</a></li>
+                    <li><a href="#!/WishlistApi#findWishlistByCustomerId">findWishlistByCustomerId</a></li>
+                    <li><a href="#!/WishlistApi#moveAllItemToCart">moveAllItemToCart</a></li>
+                    <li><a href="#!/WishlistApi#moveItemToCart">moveItemToCart</a></li>
+                    <li><a href="#!/WishlistApi#removeItemFromWishlist">removeItemFromWishlist</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="non-sidebar">
+            <div class="main-content">
+                <h2>Getting Started</h2>
+                <p>To begin using your fancy HTTP API, follow the steps below.</p>
+                <p>You can add some helpful tips, here</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
