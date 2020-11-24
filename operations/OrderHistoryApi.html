@@ -1,0 +1,88 @@
+<div class="main-content">
+  <h2><a name=""></a></h2>
+  <p>This is the  API</p>
+
+  <h2><a name="findOrderById"></a>findOrderById</h2>
+  <hr>
+  <p></p>
+  <p>주문 시퀀스 ID 로 주문 조회</p>
+  <h3 class="section">URL</h3>
+  <code>http://localhost:8280/orders/order/{orderId}</code>
+  <h3 class="section">HTTP Method</h3>
+  <code>GET</code>
+  <h3 class="section">Response Type</h3>
+  <div class="model" data-model="CheckoutOrderWrapper"><a href="">CheckoutOrderWrapper</a></div>
+  <h3 class="section">Parameters</h3>
+  <ul>
+	  <li class="parameter">
+      
+      
+      <span class="param-in">Path: </span>
+      
+      
+      <span class="param-name">orderId</span>
+      <span class="param-type">Long</span>
+      
+      <p class="param-description">주문 시퀀스 ID</p>
+	  </li>
+  </ul>
+  <h2><a name="findOrderByOrderNumber"></a>findOrderByOrderNumber</h2>
+  <hr>
+  <p></p>
+  <p>고객의 주문을 조회</p>
+  <h3 class="section">URL</h3>
+  <code>http://localhost:8280/orders/order</code>
+  <h3 class="section">HTTP Method</h3>
+  <code>GET</code>
+  <h3 class="section">Response Type</h3>
+  <div class="model" data-model="CheckoutOrderWrapper"><a href="">CheckoutOrderWrapper</a></div>
+  <h3 class="section">Parameters</h3>
+  <ul>
+	  <li class="parameter">
+      
+      <span class="param-in">Query: </span>
+      
+      
+      
+      <span class="param-name">orderNumber</span>
+      <span class="param-type">String</span>
+      
+      <p class="param-description">주문 번호</p>
+	  </li>
+  </ul>
+  <h2><a name="findOrdersForCustomer"></a>findOrdersForCustomer</h2>
+  <hr>
+  <p></p>
+  <p>고객의 주문을 조회</p>
+  <h3 class="section">URL</h3>
+  <code>http://localhost:8280/orders</code>
+  <h3 class="section">HTTP Method</h3>
+  <code>GET</code>
+  <h3 class="section">Response Type</h3>
+  <div class="model" data-model="CheckoutOrderWrapper"><a href="">List</a></div>
+  <h3 class="section">Parameters</h3>
+  <ul>
+	  <li class="parameter">
+      
+      <span class="param-in">Query: </span>
+      
+      
+      
+      <span class="param-name">customerId</span>
+      <span class="param-type">Long</span>
+      
+      <p class="param-description">고객 시퀀스 ID</p>
+	  </li>
+	  <li class="parameter">
+      
+      <span class="param-in">Query: </span>
+      
+      
+      
+      <span class="param-name">includeCheckoutOrder</span>
+      <span class="param-type">Boolean</span>
+      
+      <p class="param-description">체크아웃 주문 포함 여부</p>
+	  </li>
+  </ul>
+</div>
