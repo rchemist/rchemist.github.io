@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<xsd:schema xmlns="https://rchemist.io/schema/mo"
-  targetNamespace="https://rchemist.io/schema/mo/mo-rcm-1.0.xsd"
+<xsd:schema xmlns="http://rchemist.io/schema/mo"
+  targetNamespace="http://rchemist.io/schema/mo/mo-rcm-1.0.xsd"
   elementFormDefault="qualified" attributeFormDefault="unqualified"
   xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 
